@@ -1,0 +1,77 @@
+﻿
+.channel-item-img
+{
+    display: block;
+    margin-bottom: 2px;
+}
+.channel-item-img > div:first-child
+{
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    padding: 10px 15px 15px 5px;
+    background-image: url(../Images/icons/Line_VideoSplit.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.channel-item-img .play
+{
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    z-index: 99;
+}
+
+.channel-item-img .channel-footer
+{
+    white-space: nowrap;
+    width: 100%;
+    display:inline-block;
+    height:40px;
+}
+.channel-item-list
+{
+    padding-top:20px;
+    height: 70px;
+    border-bottom: 1px dashed #BEC2C8;
+}
+.channel-item-list .play
+{
+    width: 36px;
+    height: 36px;
+}
+.ztree li ul
+{
+    margin: 0;
+    padding: 0;
+}
+.ztree li a
+{
+    width: 100%;
+    line-height: 40px;
+    overflow: visible;
+    margin-bottom: 1px;
+}
+.ztree li a.level0
+{
+    background-color: #f8f8f8;
+}
+.ztree li a.level1
+{
+    background-color: #fbfbfb;
+}
+.caret
+{
+  border-top: 7px solid;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+}
+#ifmCover{background-color:white;position:absolute;z-index:99}
+.ztree li span.button {background-image:url("../Images/left_menuForOutLook.png"); *background-image:url("../Images/left_menuForOutLook.gif")}
+.ztree li span.button.switch.level0 {width: 20px; height:20px}
+.ztree li span.button.switch.level1 {width: 20px; height:20px}
+.ztree li span.button.noline_open {background-position: 0 0;}
+.ztree li span.button.noline_close {background-position: -18px 0;}
+.ztree li span.button.noline_open.level0 {background-position: 0 -18px;}
+.ztree li span.button.noline_close.level0 {background-position: -18px -18px;}
+

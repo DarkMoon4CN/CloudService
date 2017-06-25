@@ -1,0 +1,46 @@
+﻿.loadmask
+{
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -moz-opacity: 0.5;
+    opacity: .50;
+    filter: alpha(opacity=50);
+    background-color: #CCC;
+    width: 100%;
+    height: 100%;
+    zoom: 1;
+}
+.loadmask-div
+{
+    cursor: wait;
+    text-align:center;
+    z-index: 20001;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0px;
+    padding: 2px;
+}
+.loadmask-img
+{
+    text-align:center;
+    display:inline;
+    padding: 5px;
+}
+.loadmask-tip
+{
+    text-align:center;
+    padding: 5px;
+    line-height: 25px;
+    color: #222;
+    font: normal 14px 'microsoft yahei' , 'Simsun' ,sans-serif;
+}
+
+.masked {
+    overflow: hidden !important;
+}
+.masked-relative {
+    position: relative !important;
+}

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83714615-6F7D-40CD-AB97-67664312F036}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bsr.Cloud.BLogic</RootNamespace>
+    <AssemblyName>Bsr.Cloud.BLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bsr.Core.Hibernate">
+      <HintPath>..\..\Dependencies\BsrLibs\Bsr.Core.Hibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Bsr.DeviceAdapter.Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\BsrLibs\Bsr.DeviceAdapter.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Bsr.Domain, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\BsrLibs\Bsr.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Bsr.ServiceProxy.Utils">
+      <HintPath>..\..\Dependencies\BsrLibs\Bsr.ServiceProxy.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Bsr.Services.Contract, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\BsrLibs\Bsr.Services.Contract.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\ThirdLibs\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\ThirdLibs\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\Dependencies\ThirdLibs\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity">
+      <HintPath>..\..\Dependencies\ThirdLibs\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web">
+      <HintPath>..\..\Dependencies\ThirdLibs\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\Dependencies\ThirdLibs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\ThirdLibs\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Channels" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\BLLHelper.cs" />
+    <Compile Include="BLL\ChannelBLL.cs" />
+    <Compile Include="BLL\OperaterLogBLL.cs" />
+    <Compile Include="BLL\UserFavoriteBLL.cs" />
+    <Compile Include="BPCloudException.cs" />
+    <Compile Include="BPServerConfigServer.cs" />
+    <Compile Include="ChannelServer.cs" />
+    <Compile Include="BLL\CustomerBLL.cs" />
+    <Compile Include="CustomerServer.cs" />
+    <Compile Include="BLL\DeviceBLL.cs" />
+    <Compile Include="DeviceCache.cs" />
+    <Compile Include="DeviceServer.cs" />
+    <Compile Include="GroupChannelServer.cs" />
+    <Compile Include="Log4NetOutPut.cs" />
+    <Compile Include="OperaterLogServer.cs" />
+    <Compile Include="PermissionServer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BLL\ResourceGroupBLL.cs" />
+    <Compile Include="ResourceGroupServer.cs" />
+    <Compile Include="ServerInterface.cs" />
+    <Compile Include="UserFavoriteServer.cs" />
+    <Compile Include="UserTokenCache.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bsr.Cloud.Core\Bsr.Cloud.Core.csproj">
+      <Project>{2DDBDB8F-9504-4099-963D-2A5520EF17F9}</Project>
+      <Name>Bsr.Cloud.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bsr.Cloud.Model\Bsr.Cloud.Model.csproj">
+      <Project>{1349AB86-5C0C-4C06-9860-5A9AA786B513}</Project>
+      <Name>Bsr.Cloud.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\Bsr.Cloud.WebEntry\hibernate.cfg.xml">
+      <Link>hibernate.cfg.xml</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Bsr.Cloud.WebEntry\log4net.config">
+      <Link>log4net.config</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\Bsr.Cloud.WebEntry\ChannlEncoder.xml">
+      <Link>ChannlEncoder.xml</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

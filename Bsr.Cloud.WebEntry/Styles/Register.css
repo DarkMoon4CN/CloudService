@@ -1,0 +1,147 @@
+﻿
+/*------覆盖bootstrap------*/
+.form-control
+{
+    border-radius: 0px;
+}
+label
+{
+    font-weight: normal;
+}
+.control-label
+{
+    color: White;
+    padding-top: 7px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+.btn-link
+{
+    color: White;
+}
+.btn-link:hover
+{
+    color: #deff00;
+    text-decoration: none;
+}
+.btn-link:focus
+{
+    color: #deff00;
+    text-decoration: none;
+}
+.nav > li > a
+{
+    color: White;
+}
+.nav > li > a:hover
+{
+    background-color: transparent;
+    color: #deff00;
+}
+/*---------------------------*/
+body
+{
+    background: url('../Images/login/image_RegisterBg.png') no-repeat fixed top;
+    background-size: cover;
+    font-family: 'microsoft yahei' , 'Simsun' ,sans-serif;
+    font-size: 14px;
+}
+
+.opacity20
+{
+    filter: alpha(opacity=20);
+    -moz-opacity: 0.2;
+    -khtml-opacity: 0.2;
+    opacity: 0.2;
+}
+.register-header
+{
+    z-index: 99;
+    width: 100%;
+    height: 65px;
+    -webkit-box-shadow: 0px 0px 10px #cccccc; /*火狐浏览器投影*/
+    -moz-box-shadow: 0px 0px 10px #cccccc; /*Safari和Chrome浏览器器投影*/
+    box-shadow: 0px 0px 10px #cccccc;
+    background: rgba(255, 255, 255, 0.2) repeat scroll 0 0 !important; /*实现FF背景透明，文字不透明*/
+    filter: Alpha(opacity=20);
+    background: #ffffff; /*实现IE背景透明*/
+    padding-top: 10px;
+}
+.register-header > div
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.register-back
+{
+    height: 30px;
+    width: 110px;
+    position: fixed;
+    top: 330px;
+    left: 0px;
+}
+.register-back > a
+{
+    cursor: pointer;
+    color: White;
+    text-decoration: none;
+}
+.register-back > a:hover
+{
+    color: #deff00;
+}
+.register-content
+{
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    margin: 60px 110px 0px 110px;
+}
+.register-tip
+{
+    text-align: center;
+    padding-left: 12px;
+    font-size: 14px;
+    font-style: italic;
+}
+.register-tip-underline
+{
+    text-align: center;
+    padding-left: 12px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-style: italic;
+    background-image: url(../Images/login/Splitline_Register.png);
+    background-position: center 20px;
+    background-repeat: no-repeat;
+}
+.btn-save
+{
+    background-color: #ffee9f;
+    border-radius: 15px;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+input.error
+{
+    border: 1px solid #EE8169;
+}
+label.error
+{
+    display: none;
+    height: 20px;
+    line-height:20px;
+    margin-top:4px;
+    padding-top:2px;
+    padding-left: 25px;
+    vertical-align:middle;
+    color: #EE8169;
+    background-image: url(../Images/icons/icon.png);
+    background-position: -5px -6px;
+    background-repeat: no-repeat;
+    font-size: 12px;
+}
+

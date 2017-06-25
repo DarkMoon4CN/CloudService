@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Bsr.Cloud.Model" namespace="Bsr.Cloud.Model.Entities">
+  <class name="OperaterLog" table="OperaterLog" lazy="true">
+    <id name="OperaterId" column="OperaterId">
+      <!-- 主键自增用 native   普通主键 用 assigend -->
+      <!--<generator class="assigned"></generator>-->
+      <generator class="native"></generator>
+    </id>
+    <property name="CustomerId" column="CustomerId"></property>
+    <property name="Action" column="Action"></property>
+    <property name="TargetId" column="TargetId"></property>
+    <property name="TargetType" column="TargetType"></property>
+    <property name="AgentType" column="AgentType"></property>
+    <property name="AgentVersion" column="AgentVersion"></property>
+    <property name="Result" column="Result"></property>
+    <property name="OperaterTime" column="OperaterTime"></property>
+    <property name="Remarks" column="Remarks"></property>
+    <property name="AgentAddress" column="AgentAddress"></property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-configuration xmlns="urn:nhibernate-configuration-2.2">
+  <session-factory name="test">
+   <property name="connection.driver_class">NHibernate.Driver.MySqlDataDriver</property>
+    <property name="connection.connection_string">server=192.168.8.207;database=testnh;uid=root;pwd=123456;Pooling=true;Max Pool Size=50;Min Pool Size=10</property>
+    <!--<property name="connection.connection_string">server=127.0.0.1;database=bcloud;uid=root;pwd=test-123;Pooling=true;Max Pool Size=50;Min Pool Size=10</property>-->
+    <property name="dialect">NHibernate.Dialect.MySQLDialect</property>
+    <property name="show_sql">true</property>
+    <mapping assembly="Bsr.Cloud.Model"/>
+  </session-factory>  
+</hibernate-configuration>

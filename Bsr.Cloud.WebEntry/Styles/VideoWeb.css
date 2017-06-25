@@ -1,0 +1,54 @@
+﻿#video-channelList
+{
+    position: relative;
+    margin: 0px 0px;
+    padding: 0px 5px 5px 10px;
+    background-color: White;
+    border: 0px;
+    font-size: 14px;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 600px;
+    width: 100%;
+}
+#playerMenu2
+{
+    float: left;
+}
+#playerMenu2 > li
+{
+    float: left;
+    padding-right: 3px;
+}
+#playerMenu3
+{
+    float: right;
+}
+#playerMenu3 > li
+{
+    float: right;
+    padding-left: 3px;
+}
+#btnSubstream a
+{
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+}
+#btnSubstream a:hover
+{
+    color: #30c4fb;
+}
+#btnSubstream span
+{
+    width: 57px;
+    line-height: 38px;
+    border: 1px solid gray;
+    padding: 1px 5px 1px 5px;
+}
+#subStreamMenu
+{
+    min-width: 80px;
+    left: -15px;
+}
+

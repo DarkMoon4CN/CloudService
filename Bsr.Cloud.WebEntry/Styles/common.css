@@ -1,0 +1,174 @@
+﻿/*--------------覆盖Bootstrap---------------*/
+.help-block
+{
+    font-size: 12px;
+    font-style: italic;
+}
+.modal-content
+{
+    border-radius: 0px;
+}
+.thumbnail
+{
+    border-radius: 0px;
+    margin-bottom: 5px;
+    border-color: #EEEEEE;
+}
+label
+{
+    font-weight: normal;
+}
+.control-label
+{
+    padding-top: 7px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+.btn,
+.input-group-sm > .form-control, 
+.input-group-sm > .input-group-addon, 
+.input-group-sm > .input-group-btn > .btn,
+.form-control
+{
+    border-radius:0px;
+}
+
+/*--------------公用样式---------------*/
+
+.cloud-link
+{
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    margin-top: 15px;
+    float: right;
+}
+.cloud-link li
+{
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid white;
+}
+.cloud-link li a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.cloud-link li a:hover
+{
+    color: #deff00;
+}
+.content-nav
+{
+    width: 100%;
+    height: 45px;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 10px 0px 5px 10px;
+    font-size:16px;
+}
+.content-nav .text-left
+{
+    text-align: left;
+}
+.content-nav .text-left span
+{
+    padding-top: 8px;
+    display: inline-block;
+}
+.content-nav .text-right
+{
+    text-align: right;
+}
+.content-nav .text-right span:not(last-child)
+{
+    border-right: 1px solid #D4D4D4;
+    color: #56CDFC;
+}
+.content-nav .btn-link
+{
+    color: #2FB7E9;
+}
+.content-nav .btn-link:hover, .content-nav .btn-link:active
+{
+    border-bottom: 2px solid #2FB7E9;
+    text-decoration: none;
+}
+.input-underline
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #30c5fc;
+}
+.icon-btn
+{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0px 5px 0px 5px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+.icon-btn-edit
+{
+    background-image: url(../Images/icons/icon_Edit_Normal.png);
+}
+.icon-btn-edit:hover
+{
+    background-image: url(../Images/icons/icon_Edit_Hover.png);
+}
+.icon-btn-zoom
+{
+    background-image: url(../Images/icons/icon_Snipzoom_Normal.png);
+}
+.icon-btn-zoom:hover
+{
+    background-image: url(../Images/icons/icon_Snipzoom_Hover.png);
+}
+.icon-btn-del
+{
+    background-image: url(../Images/icons/icon_Delete_Normal.png);
+}
+.icon-btn-del:hover
+{
+    background-image: url(../Images/icons/icon_Delete_Hover.png);
+}
+.icon-btn-refresh
+{
+    background-image: url(../Images/icons/icon_Refresh_Normal.png);
+}
+.icon-btn-refresh:hover
+{
+    background-image: url(../Images/icons/icon_Refresh_Hover.png);
+}
+.play72
+{
+    width: 72px;
+    height: 72px;
+    background-image: url(../Images/icons/icon_Play72x72_Normal.png);
+}
+.play72:hover
+{
+    background-image: url(../Images/icons/icon_Play72x72_Hover.png);
+}
+.play64
+{
+    width: 64px;
+    height: 64px;
+    background-image: url(../Images/icons/icon_Play64x64_Normal.png);
+}
+.play64:hover
+{
+    background-image: url(../Images/icons/icon_Play64x64_Hover.png);
+}
+.play36
+{
+    background-image: url(../Images/icons/icon_Play36x36_Normal.png);
+}
+.play36:hover
+{
+    background-image: url(../Images/icons/icon_Play36x36_Hover.png);
+}

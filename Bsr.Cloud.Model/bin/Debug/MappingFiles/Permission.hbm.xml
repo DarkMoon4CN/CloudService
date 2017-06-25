@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Bsr.Cloud.Model" namespace="Bsr.Cloud.Model.Entities">
+  <class name="Permission" table="Permission" lazy="true">
+    <id name="PermissionId" column="PermissionId">
+      <!-- 主键自增用 native   普通主键 用 assigend -->
+      <!--<generator class="assigned"></generator>-->
+      <generator class="native"></generator>
+    </id>
+    <property name="CustomerId" column="CustomerId"></property>
+    <property name="PermissionName" column="PermissionName"></property>
+    <property name="NodeId" column="NodeId"></property>
+    <property name="NodeType" column="NodeType"></property>
+    <property name="IsEnable" column="IsEnable"></property>
+  </class>
+</hibernate-mapping>

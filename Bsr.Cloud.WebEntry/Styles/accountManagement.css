@@ -1,0 +1,334 @@
+﻿a
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:link
+{
+    text-decoration: none;
+}
+a:visited
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: none;
+    color: #30c5fc;
+}
+a:active
+{
+    text-decoration: none;
+    color: #30c5fc;
+}
+.createChildAccoutDiv
+{
+    margin-left: 80%;
+    padding: 4px;
+}
+.createChildAccoutDiv a
+{
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+.createChildAccoutDiv a:link
+{
+    background-image: url(../Images/icons/icon_AddUser_Normal.png);
+    background-repeat: no-repeat;
+}
+.createChildAccoutDiv a:visited
+{
+    background-image: url(../Images/icons/icon_AddUser_Hover.png);
+    background-repeat: no-repeat;
+}
+.createChildAccoutDiv a:hover
+{
+    background-image: url(../Images/icons/icon_AddUser_Hover.png);
+    background-repeat: no-repeat;
+    text-decoration: underline;
+}
+.createChildAccoutDiv a:active
+{
+    background-image: url(../Images/icons/icon_AddUser_Hover.png);
+    background-repeat: no-repeat;
+    text-decoration: underline;
+}
+.imageSpanBanner
+{
+    background: url(../Images/icons/image_Banner.png) no-repeat;
+    width: 86px;
+    height: 4px;
+    position: absolute;
+    left: 316px;
+    top: 63px;
+}
+.panelImageSpanBanner
+{
+    background: url("../Images/icons/image_Banner.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 4px;
+    left: 361px;
+    position: absolute;
+    top: 50px;
+    width: 62px;
+}
+#img-info-title a
+{
+    margin: 0 15px;
+}
+.imageInfo
+{
+    margin-bottom: 50px;
+    position:relative;
+    top:35px;
+}
+.panelBodyInfo
+{
+    width: 90%;
+    margin-left: 45px;
+}
+.ChildCustomerInfoDiv
+{
+    margin-top: 52px;
+    display: none;
+}
+.ChildCustomerDivBtn
+{
+    display: none;
+    margin-top: 5px;
+}
+.ChildValidRadio
+{
+    left: 14px;
+    top: -7px;
+}
+.ChildValidCheckBox
+{
+    margin-left: -76px;
+}
+.ChildValidDate
+{
+    float: left;
+    margin-top: 8px;
+    width: 200px;
+}
+.ImgOn
+{
+    background-image: url(../Images/icons/icon_DisableUser_Normal.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    left: -7px;
+    top: -7px;
+    position: absolute;
+}
+.subAuthorizeDiv
+{
+    position: relative;
+    top: 17px;
+    height: 340px;
+}
+.subAuthorizeTableHead
+{
+    height: 25px;
+    margin: 20px auto auto;
+    text-align: center;
+}
+.subAuthorizeTableHead .videoDiv
+{
+    display: inline;
+}
+.subAuthorizeTableHead .videoDiv a
+{
+    width: 115px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+}
+.subAuthorizeTableHead .videoDiv a:link
+{
+    background-image: url(../Images/icons/icon_Live_active.png);
+    background-repeat: no-repeat;
+}
+.subAuthorizeTableHead .backDiv
+{
+    display: inline;
+}
+.subAuthorizeTableHead .backDiv a
+{
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+}
+.subAuthorizeTableHead .backDiv a:link
+{
+    background-image: url(../Images/icons/icon_Play.png);
+    background-repeat: no-repeat;
+}
+.subAuthorizeTableHead .configDiv
+{
+    display: inline;
+}
+.subAuthorizeTableHead .configDiv a
+{
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 48px;
+    float: right;
+}
+.subAuthorizeTableDiv
+{
+    overflow: auto;
+    height: 268px;
+    margin-top: 10px;
+}
+.subAuthorizeTable
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: auto;
+    width: 95%;
+}
+.subAuthorizeTable td
+{
+    border: 1px dashed #fcfcfc;
+    font-size: 14px;
+    font-weight: normal;
+    vertical-align: middle;
+    padding: 10px;
+    height: 40px;
+    width: 108px;
+}
+.subAuthorizeTable .SecondTd
+{
+    text-align: left;
+}
+.subAuthorizeTableNext
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: auto;
+    width: 95%;
+}
+.subAuthorizeTableNext td
+{
+    border: 1px dashed #fcfcfc;
+    font-size: 14px;
+    font-weight: normal;
+    vertical-align: middle;
+    padding: 10px;
+    height: 40px;
+    width: 108px;
+}
+.subAuthorizeTableNext .SecondTd
+{
+    text-align: left;
+}
+.accountBaseinfo
+{
+    display: inline;
+}
+.accountBaseinfo a
+{
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+.accountSafeinfo
+{
+    display: inline;
+    margin-left: 70px;
+}
+.accountSafeinfo a
+{
+    width: 155px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+.divcss
+{
+    background: url(../Images/icons/Bg_Portrait.png) no-repeat;
+    text-align: center;
+    height: 358px;
+    width: 758px;
+    margin-left: 10%;
+}
+.divimg
+{
+    margin-top: 100px;
+}
+.divuserinfo
+{
+    margin-top: 56px;
+}
+.divsafecss
+{
+    text-align: center;
+    height: 158px;
+    width: 758px;
+    margin-left: 10%;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.divbtn
+{
+    text-align: center;
+    height: 142px;
+    padding-top: 50px;
+}
+.input-underline-show
+{
+    border-color: -moz-use-text-color -moz-use-text-color #30c5fc;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    height: 34px;
+    width: 100%;
+}
+.input-underline-hide
+{
+    border-color: -moz-use-text-color -moz-use-text-color #30c5fc;
+    border-style: none none solid;
+    border-width: 0 0 0px;
+    height: 34px;
+    width: 100%;
+}
+.text-overflow-ellipsis
+{
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    width: 108px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+input.error
+{
+    border: 1px solid red;
+}
+label.error
+{
+    display: none;
+    height: 25px;
+    line-height:25px;
+    margin-top:4px;
+    padding-top:2px;
+    padding-left: 25px;
+    float:left;
+    color: #FA0303;
+    background-image: url(../Images/icons/icon_Error.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    font-size: 12px;
+}

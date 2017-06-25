@@ -1,0 +1,299 @@
+/*----导航-------*/
+body, div, dl, dt, dd, ul, ol, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, hr *
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'microsoft yahei' , 'Simsun' ,sans-serif;
+    font-size: 14px;
+}
+.head-v3 h1, .head-v3 h2, .head-v3 h3.head-v3, h4, .head-v3 h5, .head-v3 h6
+{
+    font-size: 100%;
+    font-family: 'microsoft yahei' , 'Simsun' ,sans-serif;
+}
+li
+{
+    list-style: none;
+}
+.navigation-up a, .navigation-down a
+{
+    text-decoration: none;
+    color: White;
+    cursor:pointer;
+}
+body
+{
+    background: #f1f1f1;
+    min-width: 1024px;
+}
+
+.nav
+{
+    color: White;
+}
+.nav > li > a:hover, .nav > li > a:focus
+{
+    color: #DEFF00;
+    background-color: transparent;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus
+{
+    background-color: transparent;
+}
+.navbar-form *
+{
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
+}
+.head-v3
+{
+    position: relative;
+    z-index: 100;
+    min-width: 1000px;
+    background-image: url(../Images/icons/image_Banner.png);
+}
+.head-v3 .navigation-top
+{
+    height: 55px;
+}
+.head-v3 .navigation-inner
+{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.navigation-up
+{
+    height: 30px;
+}
+.navigation-up .navigation-v3
+{
+    margin-left: 135px;
+    float: left;
+    _margin-left: 10px;
+    margin-top: 7px;
+}
+.navigation-up .navigation-v3 ul
+{
+    float: left;
+}
+.navigation-up .navigation-v3 li
+{
+    float: left;
+    font: normal 16px/20px "microsoft yahei";
+    color: #fff;
+}
+.navigation-up .navigation-v3 .nav-up-selected
+{
+    border-bottom: 3px solid #DAFE08;
+}
+.navigation-up .navigation-v3 li h2
+{
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+.navigation-up .navigation-v3 li h2 a
+{
+    padding: 0 35px;
+    color: #fff;
+    display: inline-block;
+    height: 20px;
+    font-family: "microsoft yahei";
+}
+
+.navigation-down
+{
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    width: 100%;
+}
+.navigation-down .nav-down-menu
+{
+    width: 100%;
+    margin: 0;
+    background: #344157;
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}
+.navigation-down .nav-down-menu .navigation-down-inner
+{
+    margin: auto;
+    width: 1200px;
+    position: relative;
+}
+.navigation-down .nav-down-menu dl
+{
+    float: left;
+    margin: 18px 80px 18px 0;
+}
+.navigation-down .menu-1 dl
+{
+    margin: 10px 80px 15px 0;
+}
+.navigation-down .menu-1 dt
+{
+    font: normal 16px "microsoft yahei";
+    color: #61789e;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #61789e;
+    margin-bottom: 10px;
+}
+.navigation-down .menu-1 dd a
+{
+    color: #fff;
+    font: normal 14px/25px "microsoft yahei";
+}
+.navigation-down .menu-1 dd a:hover
+{
+    color: #deff00;
+}
+.navigation-down .menu-2 dd a, .navigation-down .menu-3 dd a
+{
+    color: #fff;
+    font: normal 16px "microsoft yahei";
+}
+
+/*JS代码网 - www.js-css.cn*/
+
+/*--------首页-----------*/
+.toolBar
+{
+    z-index: 0;
+    height: 1600px;
+    width: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(255, 255, 255, 0.8) repeat scroll 0 0 !important; /*实现FF背景透明，文字不透明*/
+    filter: Alpha(opacity=80);
+    background: #ffffff; /*实现IE背景透明*/
+}
+.toolBar img
+{
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+}
+.toolBar > div:first-child
+{
+    margin-top: 105px;
+}
+.content
+{
+    z-index: 99px;
+    margin: 0 auto;
+    margin-top: 9px;
+    background: #ffffff;
+    width: 80%;
+    min-height: 872px;
+    position: relative;
+}
+.tools
+{
+    z-index: 0px;
+    width: 45px;
+    height: 1600px;
+    position: fixed;
+    top: 0px;
+    right: 65px;
+}
+.tool-group
+{
+    padding: 5px 5px 5px 5px;
+    background: rgba(255, 255, 255, 0.8) repeat scroll 0 0 !important; /*实现FF背景透明，文字不透明*/
+    filter: Alpha(opacity=80);
+    background: #ffffff; /*实现IE背景透明*/
+}
+.tool-group-mode
+{
+    margin-top: 140px;
+}
+.tool-group a
+{
+    margin: 10px 5px 20px 5px;
+    height: 30px;
+    width: 30px;
+    display: block;
+}
+.tool
+{
+    background: rgba(255, 255, 255, 0.8) repeat scroll 0 0 !important; /*实现FF背景透明，文字不透明*/
+    filter: Alpha(opacity=80);
+    background: #ffffff; /*实现IE背景透明*/
+    height: 45px;
+    width: 45px;
+    display: block;
+}
+.tool-group a:first-child
+{
+    margin-bottom: 0px;
+}
+.tool-top
+{
+    position: fixed;
+    bottom: 30px;
+}
+.tool-top img
+{
+    width: 45px;
+    height: 45px;
+}
+
+/*-----------设备管理页面-----------*/
+
+.thumbnail .deviceName label
+{
+    color: Gray;
+}
+#DeviceList_deviceListDiv
+{
+    margin-top: 60px;
+}
+#deviceAdd-top
+{
+    height: 80px;
+    position: relative;
+}
+#deviceAdd-top a
+{
+    vertical-align: bottom;
+    color: #30C5FC;
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+    display: none;
+}
+#deviceAdd-tip
+{
+    background-color: #F2F2F2;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    color: #808080;
+}
+#deviceAdd-type
+{
+    padding-top: 70px;
+}
+#deviceAdd-type div
+{
+    text-align: center;
+    padding: 10px;
+}
+#deviceAdd-type img
+{
+    cursor: pointer;
+}
+#deviceAdd_auto_deviceListDiv .thumbnail
+{
+    margin-top: 20px;
+}

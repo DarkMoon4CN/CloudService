@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Bsr.Cloud.Model" namespace="Bsr.Cloud.Model.Entities">
+  <class name="Customer" table="Customer" lazy="true">
+    <id name="CustomerId" column="CustomerId">
+      <!-- 主键自增用 native   普通主键 用 assigend -->
+      <!--<generator class="assigned"></generator>-->
+      <generator class="native"></generator>
+    </id>
+    <property name="CustomerName" column="CustomerName"></property>
+    <property name="Password" column="Password"></property>
+    <property name="SignInType" column="SignInType"></property>
+    
+    <property name="ReceiverName" column="ReceiverName"></property>
+    <property name="ReceiverEmail" column="ReceiverEmail"></property>
+    <property name="ReceiverCellPhone" column="ReceiverCellPhone"></property>
+    <property name="ParentId" column="ParentId"></property>
+
+    <property name="AccountIDNumber" column="AccountIDNumber"></property>
+    <property name="AccountTelephone" column="AccountTelephone"></property>
+    <property name="AccountCompany" column="AccountCompany"></property>
+    <property name="AccountCompanyAddress" column="AccountCompanyAddress"></property>
+    <property name="IsEnable" column="IsEnable"></property>
+    <property name="AccountHomeAddress" column="AccountHomeAddress"></property>
+    <property name="ImagePath" column="ImagePath"></property>
+    <property name="ValidTime" column="ValidTime"></property>
+    <property name="ForbiddenTime" column="ForbiddenTime"></property>
+    <property name="LoginTypes" column="LoginTypes"></property>
+
+    
+    <!--<sql-insert>、<sql-update>、<sql-delete> model添加时方法添加顺序必须 以 查 增 改 删 做优先级-->
+    <!--<sql-insert>call InsertUserInfo(?,?)</sql-insert>
+    <sql-update>call UpdateUserinfo(?,?,?)</sql-update>
+    <sql-delete>call DelectUserInfoByUserId(?)</sql-delete>-->
+  </class>
+</hibernate-mapping>

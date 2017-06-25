@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Bsr.Cloud.Model" namespace="Bsr.Cloud.Model.Entities">
+  <class name="GroupChannel" table="GroupChannel" lazy="true">
+    <id name="GroupChannelId" column="GroupChannelId">
+      <!-- 主键自增用 native   普通主键 用 assigend -->
+      <!--<generator class="assigned"></generator>-->
+      <generator class="native"></generator>
+    </id>
+    <property name="CustomerId" column="CustomerId"></property>
+    <many-to-one name="resourceGroup" column="ResourceGroupId" class="ResourceGroup" fetch="select" lazy="false"></many-to-one>
+    <many-to-one name="channel" column="ChannelId"  class="Channel" fetch="select" lazy="false"></many-to-one>
+  </class>
+</hibernate-mapping>

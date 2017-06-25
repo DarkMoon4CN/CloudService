@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlueStarCloud>
+ <Versions>
+   <Version Name="LatestMajorVersion" Value="V1.0.0" />
+   <Version Name="LatestMinorVersion" Value="1.0.0" />
+   <Version Name="LatestBuildVersion" Value="T01" />
+ </Versions>
+</BlueStarCloud>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<!--通道的码流配置文件-->
+<ChannlEncoder>
+  <Info StreamType="1" name="高清">
+    <Resolution>12</Resolution>
+    <FrameRate>10</FrameRate>
+    <BitrateMode>1</BitrateMode>
+    <Bitrate>512</Bitrate>
+    <IFrameInterval>20</IFrameInterval>
+  </Info>
+  <Info StreamType="2" name="均衡">
+    <Resolution>4</Resolution>
+    <FrameRate>10</FrameRate>
+    <BitrateMode>1</BitrateMode>
+    <Bitrate>256</Bitrate>
+    <IFrameInterval>20</IFrameInterval>
+  </Info>
+  <Info StreamType="3" name="流畅">
+    <Resolution>2</Resolution>
+    <FrameRate>8</FrameRate>
+    <BitrateMode>1</BitrateMode>
+    <Bitrate>128</Bitrate>
+    <IFrameInterval>16</IFrameInterval>
+  </Info>
+</ChannlEncoder>

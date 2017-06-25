@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Bsr.Cloud.Model" namespace="Bsr.Cloud.Model.Entities">
+  <class name="Channel" table="Channel" lazy="true">
+    <id name="ChannelId" column="ChannelId">
+      <!-- 主键自增用 native   普通主键 用 assigend -->
+      <!--<generator class="assigned"></generator>-->
+      <generator class="native"></generator>
+    </id>
+    <property name="ChannelName" column="ChannelName"></property>
+    <property name="ChannelNumber" column="ChannelNumber"></property>
+    <property name="DeviceId" column="DeviceId"></property>
+    <property name="ImagePath" column="ImagePath"></property>
+    <property name="IsEnable" column="IsEnable"></property>
+    <property name="BPServerChannelId" column="BPServerChannelId"></property>
+    
+
+    <!--<sql-insert>、<sql-update>、<sql-delete> model添加时方法添加顺序必须 以 查 增 改 删 做优先级-->
+    <!--<sql-insert>call InsertUserInfo(?,?)</sql-insert>
+    <sql-update>call UpdateUserinfo(?,?,?)</sql-update>
+    <sql-delete>call DelectUserInfoByUserId(?)</sql-delete>-->
+  </class>
+</hibernate-mapping>

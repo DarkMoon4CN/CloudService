@@ -1,0 +1,112 @@
+﻿
+/*------覆盖bootstrap------*/
+.form-control
+{
+    border-radius:0px;
+}
+/*-------------------*/
+body
+{
+    font-family: 'microsoft yahei' , 'Simsun' ,sans-serif;
+    background: url('../Images/login/image_LoginBg.png') no-repeat fixed top;
+    background-size: contain;
+}
+.center
+{
+    padding: 14px 0px 14px 0px;
+    min-width: 480px;
+    width: 30%;
+    margin: 0px auto;
+}
+.nav a, a
+{
+    color: Black;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}
+/*---登陆---*/
+.signIn
+{
+    margin-top: 60px;
+    height: 300px;
+    padding-top: 60px;
+    background: rgba(255, 255, 255, 0.2) repeat scroll 0 0 !important; /*实现FF背景透明，文字不透明*/
+    filter: Alpha(opacity=20);
+    background: #ffffff; /*实现IE背景透明*/
+}
+.signIn form
+{
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    position: relative;
+}
+.signIn .form-group
+{
+    padding: 6px 0px 6px 0px;
+}
+.signIn label.label-user
+{
+    height: 30px;
+    width: 108px;
+    background: url('../Images/login/icon_LoginUser.png') no-repeat right;
+    background-size: contain;
+}
+.signIn label.label-key
+{
+    height: 30px;
+    width: 108px;
+    background: url('../Images/login/icon_LoginKey.png') no-repeat right;
+    background-size: contain;
+}
+#download
+{
+    margin: 100px auto;
+    width: 95%;
+}
+#download div
+{
+    padding: 0px 0px 0px 0px;
+}
+#download div:not(:last-child) a
+{
+    background-image: url(../Images/login/Splitline_Vertical.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#download .thumbnail
+{
+    background-color: inherit;
+    border: 0px;
+}
+#download img
+{
+    width: 85px;
+    height: 85px;
+}
+.thumbnail
+{
+    text-align: center;
+}
+.footer
+{
+    margin: 25px 0px 32px 0px;
+    text-align: center;
+    color:Black;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}
+.btn-save
+{
+    background-color:#ffee9f;
+    border-radius: 15px;
+    background: rgba(255, 238, 159, 0.5) repeat scroll 0 0 !important; /*实现FF背景透明，文字不透明*/
+    filter: Alpha(opacity=50);
+    background: #ffffff; /*实现IE背景透明*/
+    font-size:16px;
+}
+
+
